@@ -3328,5 +3328,22 @@ input, select, textarea {
 			.feature-icons ul li {
 				margin-bottom: 5px; /* Espaçamento entre as linhas */
 			}
+
+			
 			
 	}
+
+	/* Estilo padrão para o link com id #title-link */
+#title-link {
+    text-decoration: none; /* Remove o sublinhado */
+    color: #000; /* Cor padrão do link */
+    font-size: 18px; /* Tamanho padrão da fonte */
+    transition: all 0.3s ease; /* Transição suave para mudanças */
+}
+
+/* Estilo ao passar o mouse */
+#title-link:hover {
+    color: #3498db; /* Muda a cor para azul quando o mouse passa */
+    font-size: 20px; /* Aumenta o tamanho da fonte */
+    transform: scale(1.1); /* Dá um leve efeito de aumento de escala */
+}
